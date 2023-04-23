@@ -200,8 +200,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288982460}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.87, y: -4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 6.18, y: -3.69, z: 0}
+  m_LocalScale: {x: 1.6133, y: 2.9421, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -369,8 +369,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146870403}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -5.06, z: 0}
-  m_LocalScale: {x: 28.282452, y: 1.5517346, z: 1}
+  m_LocalPosition: {x: 1.99, y: -3.4, z: 0}
+  m_LocalScale: {x: 65.287834, y: 1.5517346, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -383,7 +383,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146870403}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -479,7 +479,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1150492370}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.57, y: -4, z: 0}
+  m_LocalPosition: {x: -7.31, y: -3.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -540,6 +540,10 @@ PrefabInstance:
     - target: {fileID: 186444700999815989, guid: 02b249d11ef50904ab881d30cc2f473c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 186444700999815990, guid: 02b249d11ef50904ab881d30cc2f473c, type: 3}
+      propertyPath: spawnRate
+      value: 1.72
       objectReference: {fileID: 0}
     - target: {fileID: 186444700999815990, guid: 02b249d11ef50904ab881d30cc2f473c, type: 3}
       propertyPath: ballPrefab

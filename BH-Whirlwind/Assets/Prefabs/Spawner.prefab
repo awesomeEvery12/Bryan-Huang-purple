@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6780b201926ec6449b5a87270f80dea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballPrefab: {fileID: 192214236833533466, guid: 72d9b2f1a2cc3ae43b1b6bc9ee4db60d, type: 3}
-  spawnRate: 0.5
+  ballPrefab: {fileID: 0}
+  spawnRate: 2.11
