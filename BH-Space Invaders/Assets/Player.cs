@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
+    public GameObject bulletPrefab;
     public float speed;
     // Update is called once per frame
     void Update()
@@ -17,5 +17,7 @@ public class Player : MonoBehaviour
         {
             transform.Translate(Vector2.left * Time.deltaTime * speed);
         }
+
+      
     }
 }
