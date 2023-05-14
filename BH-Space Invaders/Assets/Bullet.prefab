@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2919996343009898087}
   - component: {fileID: 8640427404805682117}
-  - component: {fileID: -4587891259197928406}
   - component: {fileID: 4357165555233716676}
+  - component: {fileID: 1029502020478486541}
   m_Layer: 7
-  m_Name: bullet
+  m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60,19 +60,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6933241, y: 0.50193894}
   m_EdgeRadius: 0
---- !u!114 &-4587891259197928406
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1084364343684296203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c6b388400f1aab4da8db5e8e60986c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 20
 --- !u!212 &4357165555233716676
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -125,3 +112,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1029502020478486541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084364343684296203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6b388400f1aab4da8db5e8e60986c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20

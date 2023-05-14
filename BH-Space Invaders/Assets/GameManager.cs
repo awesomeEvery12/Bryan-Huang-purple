@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
-    public GameObject bulletPrefab;
+    public GameObject Alien;
 
     public float xSpace;
     public float xOffset;
@@ -13,9 +13,9 @@ public class Bullet : MonoBehaviour
     {
         for (int x = 0; x < 10; x++)
         {
-            Instantiate(bulletPrefab, new Vector2(x * xSpace + xOffset, 3), Quaternion.identity);
-            Instantiate(bulletPrefab, new Vector2(x * xSpace + xOffset, 3.75f), Quaternion.identity);
-            Instantiate(bulletPrefab, new Vector2(x * xSpace + xOffset, 4.5f), Quaternion.identity);
+            Instantiate(Alien, new Vector2(x * xSpace + xOffset, 3), Quaternion.identity);
+            Instantiate(Alien, new Vector2(x * xSpace + xOffset, 3.75f), Quaternion.identity);
+            Instantiate(Alien, new Vector2(x * xSpace + xOffset, 4.5f), Quaternion.identity);
         }
     }
 

@@ -18,6 +18,11 @@ public class Player : MonoBehaviour
             transform.Translate(Vector2.left * Time.deltaTime * speed);
         }
 
-      
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+        }
+
+
     }
 }
