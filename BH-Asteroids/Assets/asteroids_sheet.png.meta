@@ -117,11 +117,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: asteroid8
+      name: asteroid 1
       rect:
         serializedVersion: 2
         x: 0
-        y: 163
+        y: 164
         width: 160
         height: 153
       alignment: 0
@@ -138,7 +138,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bu
+      name: bulle
       rect:
         serializedVersion: 2
         x: 447
@@ -146,7 +146,7 @@ TextureImporter:
         width: 29
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -159,11 +159,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroid7
+      name: asteroid 2
       rect:
         serializedVersion: 2
         x: 172
-        y: 174
+        y: 179
         width: 132
         height: 132
       alignment: 0
@@ -180,11 +180,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroid6
+      name: asteroi
       rect:
         serializedVersion: 2
         x: 331
-        y: 166
+        y: 170
         width: 145
         height: 140
       alignment: 0
@@ -201,7 +201,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bullet
+      name: player
       rect:
         serializedVersion: 2
         x: 422
@@ -226,12 +226,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 297
-        y: 11
+        y: 12
         width: 86
-        height: 63
+        height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 18, y: 0, z: 8, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -246,13 +246,13 @@ TextureImporter:
       name: shi
       rect:
         serializedVersion: 2
-        x: 213
-        y: 15
-        width: 75
-        height: 59
+        x: 217
+        y: 16
+        width: 57
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 24}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -268,7 +268,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 129
-        y: 7
+        y: 9
         width: 61
         height: 62
       alignment: 0
@@ -285,7 +285,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroid2
+      name: a
       rect:
         serializedVersion: 2
         x: 65
@@ -306,11 +306,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroid1
+      name: as
       rect:
         serializedVersion: 2
-        x: 6
-        y: 8
+        x: 9
+        y: 10
         width: 53
         height: 61
       alignment: 0
@@ -327,11 +327,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroid5
+      name: aster
       rect:
         serializedVersion: 2
         x: 10
-        y: 76
+        y: 77
         width: 67
         height: 77
       alignment: 0
@@ -348,7 +348,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroid4
+      name: aste
       rect:
         serializedVersion: 2
         x: 92
@@ -369,10 +369,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroid3
+      name: ast
       rect:
         serializedVersion: 2
-        x: 197
+        x: 199
         y: 77
         width: 68
         height: 71
@@ -390,7 +390,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: asteroids_sheet_0
+      name: bull
       rect:
         serializedVersion: 2
         x: 481
@@ -398,7 +398,7 @@ TextureImporter:
         width: 29
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -421,20 +421,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      asteroids_sheet_0: -416351770
-      asteroid4: 1727408905
-      bu: 639905343
-      asteroid3: -411997133
-      asteroid5: -1020953793
+      a: 568196162
+      player: 203991167
+      asteroid 1: -2001160443
       shi: 1997357547
-      asteroid7: 1927349854
-      asteroid8: -2001160443
-      asteroid2: 568196162
-      bullet: 203991167
+      bulle: 639905343
+      ast: -411997133
+      aste: 1727408905
       asteroids: -2143322418
+      asteroi: 297870662
+      as: 689911925
+      bull: -416351770
       ship: -68832481
-      asteroid1: 689911925
-      asteroid6: 297870662
+      aster: -1020953793
+      asteroid 2: 1927349854
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
