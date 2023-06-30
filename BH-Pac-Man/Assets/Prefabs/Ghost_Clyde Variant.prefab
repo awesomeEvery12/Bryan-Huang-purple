@@ -7,6 +7,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3094817539164380556, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: blue
+      value: 
+      objectReference: {fileID: 5358015150533905002}
+    - target: {fileID: 3094817539164380556, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: body
+      value: 
+      objectReference: {fileID: 5358015150126283392}
+    - target: {fileID: 3094817539164380556, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: eyes
+      value: 
+      objectReference: {fileID: 5358015150260647766}
+    - target: {fileID: 3094817539164380556, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3094817539164380556, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: white
+      value: 
+      objectReference: {fileID: 5358015149772247339}
+    - target: {fileID: 3094817539164380556, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: initialDirection.y
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 5945136978288347296, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
       propertyPath: m_Color.b
       value: 0.46660736
@@ -63,9 +87,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5945136978654348451, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: m_Radius
+      value: 0.1935265
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945136978654348451, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: m_Offset.x
+      value: -2.0792158
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945136978654348451, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.390604
+      objectReference: {fileID: 0}
     - target: {fileID: 5945136978654348452, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
       propertyPath: m_Name
-      value: Ghost_Clyde
+      value: Ghost_Clyde Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+--- !u!1 &5358015149772247339 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5945136978638709513, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+  m_PrefabInstance: {fileID: 1790780022896374306}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5358015150126283392 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5945136978288347298, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+  m_PrefabInstance: {fileID: 1790780022896374306}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5358015150260647766 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5945136979227755892, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+  m_PrefabInstance: {fileID: 1790780022896374306}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5358015150533905002 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5945136978946603080, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+  m_PrefabInstance: {fileID: 1790780022896374306}
+  m_PrefabAsset: {fileID: 0}

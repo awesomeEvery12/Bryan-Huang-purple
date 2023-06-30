@@ -7,6 +7,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3094817539164380556, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: blue
+      value: 
+      objectReference: {fileID: 9140579451071226178}
+    - target: {fileID: 3094817539164380556, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: body
+      value: 
+      objectReference: {fileID: 9140579450673025448}
+    - target: {fileID: 3094817539164380556, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: eyes
+      value: 
+      objectReference: {fileID: 9140579450807360638}
+    - target: {fileID: 3094817539164380556, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3094817539164380556, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: white
+      value: 
+      objectReference: {fileID: 9140579450256095747}
+    - target: {fileID: 3094817539164380556, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: initialDirection.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3094817539164380556, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 5945136978288347296, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
       propertyPath: m_Color.b
       value: 0.92141885
@@ -63,9 +91,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5945136978654348451, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: m_Radius
+      value: 0.21734655
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945136978654348451, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: m_Offset.x
+      value: -2.0428197
+      objectReference: {fileID: 0}
+    - target: {fileID: 5945136978654348451, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.4261194
+      objectReference: {fileID: 0}
     - target: {fileID: 5945136978654348452, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
       propertyPath: m_Name
-      value: Ghost_Pinky
+      value: Ghost_Pinky Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+--- !u!1 &9140579450256095747 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5945136978638709513, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+  m_PrefabInstance: {fileID: 3195446879067527434}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9140579450673025448 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5945136978288347298, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+  m_PrefabInstance: {fileID: 3195446879067527434}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9140579450807360638 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5945136979227755892, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+  m_PrefabInstance: {fileID: 3195446879067527434}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9140579451071226178 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5945136978946603080, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+  m_PrefabInstance: {fileID: 3195446879067527434}
+  m_PrefabAsset: {fileID: 0}
