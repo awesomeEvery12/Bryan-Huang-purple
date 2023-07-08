@@ -276,6 +276,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ddfc42a7dfbd66409287d2d84df21e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
+  initialDirection: {x: 0, y: 0}
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  body: {fileID: 5945136978288347298}
+  eyes: {fileID: 5945136979227755892}
+  blue: {fileID: 5945136978946603080}
+  white: {fileID: 5945136978638709513}
+  atHome: 0
+  homeDuration: 0
 --- !u!1 &5945136978946603080
 GameObject:
   m_ObjectHideFlags: 0

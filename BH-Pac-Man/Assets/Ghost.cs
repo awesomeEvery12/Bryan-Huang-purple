@@ -14,7 +14,15 @@ public class Ghost : Movement
 
     private void Awake()
     {
-        
+        transform.position = new Vector3(0, 2.5f, -1f);
+        direction = new Vector2(-1, 0);
+        atHome = true;
+        body.SetActive(true);
+        eyes.SetActive(true);
+        blue.SetActive(false);
+        white.SetActive(false);
+        frightened = false;
+        Invoke("LeaveHome", homeDuration);
     }
     protected override void ChildUpdate()
     {
@@ -22,34 +30,47 @@ public class Ghost : Movement
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        if(atHome && collision.gameObject.layer == LayerMask.NameToLayer("Öbstacle"))
+        {
+            SetDirection(-direction);
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Node node = collision.GetComponent<Node>();
 
-        if(node != null)
+    
+        if (node != null)
         {
-            
+
             int index = Random.Range(0, node.availableDirections.Count);
 
-            SetDirection(node.availableDirections[index]);
-            if(node.availableDirections[index] == -direction)
+            if (node.availableDirections.Count == 0)
             {
-                index += 1;
-
-                if(index == node.availableDirections.Count)
-                {
-                    index = 0;
-                }
+                SetDirection(Vector2.right);
             }
-            SetDirection(node.availableDirections[index]);
+            else
+            {
+                SetDirection(node.availableDirections[index]);
+                if (node.availableDirections[index] == -direction)
+                {
+                    index += 1;
 
+                    if (index == node.availableDirections.Count)
+                    {
+                        index = 0;
+                    }
+                }
 
+            }
 
         }
-        
+
+
     }
+
+
+    
     private void LeaveHome()
     {
 

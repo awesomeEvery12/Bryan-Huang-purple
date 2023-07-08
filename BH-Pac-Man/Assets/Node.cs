@@ -15,6 +15,11 @@ public class Node : MonoBehaviour
         CheckAvailableDirection(Vector2.down);
         CheckAvailableDirection(Vector2.left);
         CheckAvailableDirection(Vector2.right);
+
+        if (availableDirections.Count == 0)
+        {
+            print("none");
+        }
     }
     private void CheckAvailableDirection(Vector2 newDirection)
     {

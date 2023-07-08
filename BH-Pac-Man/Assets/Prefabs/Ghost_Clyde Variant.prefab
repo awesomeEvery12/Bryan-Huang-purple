@@ -28,6 +28,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5358015149772247339}
     - target: {fileID: 3094817539164380556, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: atHome
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3094817539164380556, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: homeDuration
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3094817539164380556, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
       propertyPath: initialDirection.y
       value: -1
       objectReference: {fileID: 0}

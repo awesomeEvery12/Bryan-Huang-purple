@@ -16,8 +16,8 @@ public abstract class Movement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        initialDirection = Vector2.zero;
-        nextDirection = Vector2.zero;
+        //initialDirection = Vector2.zero;
+        nextDirection = initialDirection;
 
     }
 

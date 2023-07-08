@@ -28,6 +28,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8318207888887506394}
     - target: {fileID: 3094817539164380556, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
+      propertyPath: atHome
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3094817539164380556, guid: bed3dec69aea362439b84a08ddd0367d, type: 3}
       propertyPath: initialDirection.x
       value: -1
       objectReference: {fileID: 0}
