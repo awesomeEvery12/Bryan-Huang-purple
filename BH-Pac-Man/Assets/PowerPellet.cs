@@ -12,7 +12,7 @@ public class PowerPellet : pellet
 
         foreach(GameObject ghost in ghosts)
         {
-
+            ghost.GetComponent<Ghost>().Frighten();
         }
     }
     // Start is called before the first frame update

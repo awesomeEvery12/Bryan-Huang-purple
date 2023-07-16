@@ -30,9 +30,29 @@ public class Ghost : Movement
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(atHome && collision.gameObject.layer == LayerMask.NameToLayer("Öbstacle"))
+        Debug.Log(atHome);
+        if (atHome && collision.gameObject.layer == LayerMask.NameToLayer("Obstacle"))
         {
+            Debug.Log("uhuh");
             SetDirection(-direction);
+        }
+        if(collision.gameObject.CompareTag("Pacman"))
+        {
+            if(frightened)
+            {
+                transform.position = new Vector3(0, -0.5f, -1);
+                body.SetActive(false);
+                eyes.SetActive(true);
+                blue.SetActive(false);
+                white.SetActive(false);
+                atHome = true;
+                CancelInvoke();
+                Invoke("LeaveHome", 4f);
+            }
+            else
+            {
+                Destroy(collision.gameObject);
+            }
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -47,7 +67,7 @@ public class Ghost : Movement
 
             if (node.availableDirections.Count == 0)
             {
-                SetDirection(Vector2.right);
+                SetDirection(Vector2.zero);
             }
             else
             {
@@ -73,11 +93,26 @@ public class Ghost : Movement
     
     private void LeaveHome()
     {
-
+        transform.position = new Vector3(0, 3.83f, -1f);
+        direction = new Vector2(1, 0);
+        atHome = false;
+        frightened = false;
+        body.SetActive(true);
+        eyes.SetActive(true);
+        blue.SetActive(false);
+        white.SetActive(false);
     }
     public void Frighten()
     {
-
+        if (!atHome)
+        {
+            frightened = true;
+            body.SetActive(false);
+            eyes.SetActive(false);
+            blue.SetActive(true);
+            white.SetActive(false);
+            Invoke("Reset", 4f);
+        }
     }
     private void Flash()
     {
@@ -85,6 +120,10 @@ public class Ghost : Movement
     }
     private void Reset()
     {
-        
+        frightened = false;
+        body.SetActive(true);
+        eyes.SetActive(true);
+        blue.SetActive(false);
+        white.SetActive(false);
     }
 }
